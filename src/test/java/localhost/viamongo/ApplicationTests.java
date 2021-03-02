@@ -54,7 +54,7 @@ public class ApplicationTests {
 //      	insert password text into input login-form__password
 //            driver.findElement(By.id("login-form__password")).sendKeys("WLS2020qa");
 //            driver.findElement(By.tagName("member_password")).sendKeys("WLS2020qa");
-            driver.findElement(By.xpath("//input[@id='login-form__password']")).sendKeys("WLS2020qa");
+            driver.findElement(By.xpath("//input[@id='login-form__password']")).sendKeys("");
 
 //      	clik LOGIN
 //          driver.findElement(By.linkText("Login")).click();
